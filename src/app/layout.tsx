@@ -28,6 +28,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
+				suppressHydrationWarning
 				className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
 			>
 				<ThemeProvider
@@ -36,10 +37,10 @@ export default function RootLayout({
 					enableSystem
 					disableTransitionOnChange
 				>
-					<Navbar />
-					<main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-						{children}
-					</main>
+					<div className="container flex flex-row flex-wrap mx-auto px-4 py-4 md:px-16 md:py-16">
+						<main className="w-full md:w-[90%]">{children}</main>
+						<Navbar />
+					</div>
 				</ThemeProvider>
 			</body>
 		</html>
