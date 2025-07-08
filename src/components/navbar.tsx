@@ -13,7 +13,7 @@ const navItems = [
 
 export default function Navbar() {
 	return (
-		<header className="bg-white dark:bg-background text-right">
+		<header className="bg-white dark:bg-background text-right ml-auto">
 			<nav>
 				{navItems.map((item) => (
 					<Link
