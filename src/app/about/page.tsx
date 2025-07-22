@@ -1,7 +1,11 @@
+import AboutMe from "@/components/about-components/about-me";
+import Photos from "@/components/about-components/photos";
+
 const AboutPage = () => {
 	return (
 		<div>
-			<h1>About</h1>
+			<AboutMe />
+			<Photos />
 		</div>
 	);
 };
