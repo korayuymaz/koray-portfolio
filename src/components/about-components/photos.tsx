@@ -40,6 +40,7 @@ const Photos = () => {
 			<div className="grid grid-cols-2 gap-4 h-[500px] overflow-y-auto w-max-content">
 				{photos.map((photo) => (
 					<Image
+						key={photo.id}
 						src={photo.image}
 						alt={photo.alt}
 						width={400}
