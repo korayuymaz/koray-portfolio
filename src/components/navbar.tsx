@@ -7,13 +7,12 @@ const navItems = [
 	{ label: "Home", href: "/" },
 	{ label: "About", href: "/about" },
 	{ label: "Projects", href: "/projects" },
-	{ label: "News", href: "/news" },
 	{ label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
 	return (
-		<header className="bg-white dark:bg-background text-right">
+		<header className="bg-white dark:bg-background text-right ml-auto">
 			<nav>
 				{navItems.map((item) => (
 					<Link

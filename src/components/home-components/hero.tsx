@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Hero() {
 	return (
-		<section className="w-full h-[80vh] ">
+		<section className="w-full mb-20">
 			<h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I’m Koray.</h1>
 			<p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-6 max-w-xl">
-				A Frontend Developer crafting modern, scalable UIs with React, Next.js,
-				and a touch of AI.
+				Hi, I’m Koray — a frontend developer on a journey to master my craft,
+				constantly learning and building.
 			</p>
 			<div className="flex gap-4">
 				<Link
