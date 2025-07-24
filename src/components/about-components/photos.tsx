@@ -32,6 +32,16 @@ const photos = [
 		image: "/photos/6.jpg",
 		alt: "Photo 6",
 	},
+	{
+		id: 7,
+		image: "/photos/7.jpg",
+		alt: "Photo 7",
+	},
+	{
+		id: 8,
+		image: "/photos/8.jpg",
+		alt: "Photo 8",
+	},
 ];
 
 const Photos = () => {
