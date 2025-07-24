@@ -7,6 +7,13 @@ import { ThemeProvider } from "@/components/theme-provider";
 export const metadata: Metadata = {
 	title: "Koray Uymaz | Frontend Developer",
 	description: "Personal portfolio of Koray Uymaz, front-end developer.",
+	icons: [
+		{
+			url: "/favicon.png",
+			rel: "icon",
+			type: "image/png",
+		},
+	],
 };
 
 export default function RootLayout({

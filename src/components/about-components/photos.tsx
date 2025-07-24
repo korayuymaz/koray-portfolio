@@ -56,8 +56,6 @@ const Photos = () => {
 		/>
 	));
 
-	console.log(items);
-
 	return (
 		<div className="mb-10 w-[80%] mx-auto">
 			<h2 className="text-2xl font-bold mb-4">Some Photos From My Lens</h2>
