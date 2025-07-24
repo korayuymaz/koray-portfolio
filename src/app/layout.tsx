@@ -72,7 +72,7 @@ export default function RootLayout({
 					enableSystem={false}
 					disableTransitionOnChange
 				>
-					<div className="container flex flex-row flex-wrap mx-auto px-4 py-4 md:px-16 md:py-16">
+					<div className="container flex flex-row flex-wrap mx-auto px-4 py-4 md:px-16 md:py-16 mb-20">
 						<main className="w-full md:w-[90%]">{children}</main>
 						<Navbar />
 					</div>
