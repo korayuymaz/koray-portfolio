@@ -25,7 +25,7 @@ export default function ProjectCard({
 	const [open, setOpen] = useState(false);
 
 	return (
-		<div className="relative bg-[color:var(--color-foreground)] p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 h-75 w-96">
+		<div className="relative bg-[color:var(--color-foreground)] p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 h-75 w-[%85]">
 			<h3 className="text-lg font-semibold mb-2 text-black flex items-center gap-2">
 				<span>{title}</span>
 				<a href={github} target="_blank" rel="noopener noreferrer">
