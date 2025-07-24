@@ -1,6 +1,6 @@
 import ProjectCard from "@/components/project-components/project-card";
 
-let projects = [
+const projects = [
 	{
 		screenshot: "/projects/responsive.png",
 		title: "Responsive Website",
