@@ -68,8 +68,8 @@ export default function RootLayout({
 			<body suppressHydrationWarning className={`font-sans antialiased`}>
 				<ThemeProvider
 					attribute="class"
-					defaultTheme="system"
-					enableSystem
+					defaultTheme="dark"
+					enableSystem={false}
 					disableTransitionOnChange
 				>
 					<div className="container flex flex-row flex-wrap mx-auto px-4 py-4 md:px-16 md:py-16">
