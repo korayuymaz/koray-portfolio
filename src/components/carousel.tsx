@@ -38,14 +38,14 @@ export default function Carousel({ items }: { items: React.ReactNode[] }) {
 			{/* Prev & Next buttons */}
 			<button
 				onClick={prevSlide}
-				className="group absolute left-0 top-0 h-full w-1/5 flex items-center justify-start hover:bg-black/10 transition duration-300 z-10"
+				className="group absolute left-0 top-0 h-full w-1/5 flex items-center justify-start hover:bg-black/30 transition duration-300 z-10"
 			>
 				<span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm group-hover:blur-0  ml-4"></span>
 			</button>
 
 			<button
 				onClick={nextSlide}
-				className="group absolute right-0 top-0 h-full w-1/5 flex items-center justify-end hover:bg-black/10 transition duration-300 z-10"
+				className="group absolute right-0 top-0 h-full w-1/5 flex items-center justify-end hover:bg-black/30 transition duration-300 z-10"
 			>
 				<span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm group-hover:blur-0 mr-4"></span>
 			</button>

@@ -10,14 +10,18 @@ const AboutMe = () => {
 						interfaces.
 					</p>
 					<p className="mb-2">
-						I mostly work with React, TypeScript, and Redux, and I’m currently
-						expanding into Vue, Next.js, and Tailwind. I enjoy working on
-						scalable UI systems, modernizing legacy code, and making things both
-						functional and elegant.
+						I mostly work with React and Next.js, and I really enjoy building
+						clean, scalable interfaces with TypeScript and Redux. Over time,
+						I’ve worked on everything from modernizing legacy code to creating
+						new UI systems from scratch — always trying to keep things both
+						functional and simple. Lately, I’ve been diving into backend
+						development and experimenting with AI tools — just trying to
+						understand more of the full picture and build things that actually
+						work well from end to end.
 					</p>
 					<p className="mb-2">
-						While I am not working, I am usually reading, pumping iron, or
-						learning something new.
+						While I am not working, I am usually reading, working out, painting
+						minis, or learning something new.
 					</p>
 					<p className="mb-2">
 						Outside of code, I’m into analog photography, ancient philosophy
