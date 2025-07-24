@@ -10,10 +10,10 @@ export default function Hero() {
 				A frontend developer on a journey to master my craft, constantly
 				learning and building.
 			</p>
-			<div className="flex gap-4">
+			<div className="flex flex-col md:flex-row text-center md:text-left gap-4">
 				<Link
 					href="/projects"
-					className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-xl font-medium hover:scale-105 transition"
+					className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-xl font-medium hover:scale-105 transition text-sm lg:text-md"
 				>
 					View Projects
 				</Link>
@@ -21,7 +21,7 @@ export default function Hero() {
 					href="/Koray_Uymaz_CV.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
-					className="border border-gray-800 dark:border-gray-200 px-6 py-3 rounded-xl font-medium hover:scale-105 transition"
+					className="border border-gray-800 dark:border-gray-200 px-6 py-3 rounded-xl font-medium hover:scale-105 transition text-sm lg:text-md"
 				>
 					Download CV
 				</a>
