@@ -7,8 +7,8 @@ export default function Hero() {
 		<section className="w-[80%] mx-auto mb-20">
 			<h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I’m Koray.</h1>
 			<p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-6 max-w-xl">
-				Hi, I’m Koray — a frontend developer on a journey to master my craft,
-				constantly learning and building.
+				A frontend developer on a journey to master my craft, constantly
+				learning and building.
 			</p>
 			<div className="flex gap-4">
 				<Link
