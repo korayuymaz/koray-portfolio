@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { getRandomColor, getRandomGradient } from "@/lib/random-color";
+import { getRandomGradient } from "@/lib/random-color";
 import Image from "next/image";
 
 type Props = {
