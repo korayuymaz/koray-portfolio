@@ -25,7 +25,7 @@ export default function ProjectCard({
 	const [open, setOpen] = useState(false);
 
 	return (
-		<div className="relative cursor-pointer bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 h-75 w-96">
+		<div className="relative bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 h-75 w-96">
 			<h3 className="text-lg font-semibold mb-2 text-black flex items-center gap-2">
 				<span>{title}</span>
 				<a href={github} target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,10 @@ export default function ProjectCard({
 				))}
 			</div>
 			<div className="absolute bottom-0 right-5 z-12">
-				<button onClick={() => setOpen((prev) => !prev)}>
+				<button
+					onClick={() => setOpen((prev) => !prev)}
+					className="cursor-pointer"
+				>
 					<Image src="/icons/eye.svg" alt="eye" width={20} height={20} />
 				</button>
 			</div>
