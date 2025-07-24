@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
 	title: "Koray Uymaz | Frontend Developer",
@@ -34,6 +35,7 @@ export default function RootLayout({
 						<main className="w-full md:w-[90%]">{children}</main>
 						<Navbar />
 					</div>
+					<Footer />
 				</ThemeProvider>
 			</body>
 		</html>
