@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Carousel from "../carousel";
 
 const photos = [
 	{
@@ -34,20 +35,24 @@ const photos = [
 ];
 
 const Photos = () => {
+	const items = photos.map((photo) => (
+		<Image
+			key={photo.id}
+			src={photo.image}
+			alt={photo.alt}
+			width={400}
+			height={400}
+			className="w-full shrink-0 h-[500px] object-center object-contain"
+		/>
+	));
+
+	console.log(items);
+
 	return (
 		<div className="mb-10 w-[80%] mx-auto">
 			<h2 className="text-2xl font-bold mb-4">Some Photos From My Lens</h2>
-			<div className="grid grid-cols-2 gap-4 h-[500px] overflow-y-auto w-max-content">
-				{photos.map((photo) => (
-					<Image
-						key={photo.id}
-						src={photo.image}
-						alt={photo.alt}
-						width={400}
-						height={400}
-						className="w-full h-full object-contain rounded-lg"
-					/>
-				))}
+			<div className="w-full">
+				<Carousel items={items} />
 			</div>
 		</div>
 	);
