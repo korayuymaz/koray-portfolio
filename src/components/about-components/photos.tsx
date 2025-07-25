@@ -37,11 +37,6 @@ const photos = [
 		image: "/photos/7.jpg",
 		alt: "Photo 7",
 	},
-	{
-		id: 8,
-		image: "/photos/8.jpg",
-		alt: "Photo 8",
-	},
 ];
 
 const Photos = () => {
