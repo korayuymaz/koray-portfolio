@@ -28,6 +28,24 @@ const projects = [
 		],
 		github: "https://github.com/korayuymaz/adaka",
 	},
+	{
+		screenshot: "/projects/dev-resources.png",
+		title: "Dev Resources",
+		description: `Dev Resources is a website that provides a collection of resources for developers. 
+		It features a search bar, a list of resources, and a detailed view of each resource.`,
+		link: "https://dev-resources-frontend-gamma.vercel.app/",
+		techStack: [
+			"Next.js 15",
+			"React 19",
+			"TypeScript",
+			"Tailwind CSS 4",
+			"DaisyUI",
+			"Apollo Client",
+			"GraphQL API",
+			"MongoDB",
+		],
+		github: "https://github.com/korayuymaz/dev-resources",
+	},
 ];
 
 const ProjectsPage = () => {

@@ -18,7 +18,7 @@ export default function Hero() {
 					View Projects
 				</Link>
 				<a
-					href="/Koray_Uymaz_CV.pdf"
+					href="/resume.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="border border-gray-800 dark:border-gray-200 px-6 py-3 rounded-xl font-medium hover:scale-105 transition text-sm lg:text-md"
