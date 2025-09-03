@@ -2,6 +2,23 @@ import ProjectCard from "@/components/project-components/project-card";
 
 const projects = [
 	{
+		screenshot: "/projects/budget-tracker.png",
+		title: "Budget Tracker",
+		description: `Budget Tracker is a website that allows you to track your budget.`,
+		link: "https://budget-trakker.netlify.app/",
+		techStack: [
+			"Next.js",
+			"Tailwind CSS",
+			"TypeScript",
+			"GraphQL",
+			"Apollo Client",
+			"Node.js",
+			"MongoDB",
+			"React Context API",
+		],
+		github: "https://github.com/korayuymaz/budget-tracker",
+	},
+	{
 		screenshot: "/projects/responsive.png",
 		title: "Responsive Website",
 		description: `A collection of responsive design templates using simple HTML, CSS, and JavaScript, bundled and served via Vite. 
